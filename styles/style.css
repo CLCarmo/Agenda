@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    width: 80%;
+    margin: 60px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: grey;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    gap: 70px;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.search-container .search-icon {
+    position: absolute;
+    left: 10px;
+    width: 24px;
+    height: auto;
+    pointer-events: none;
+}
+
+.search-container .search-bar {
+    border-radius: 30px;
+    border: none;
+    height: 35px;
+    width: px;
+    padding-left: 40px;
+}
+
+.search-container .search-bar::placeholder {
+    color: #bbb;
+}
+
+header button {
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #28a745;
+}
+
+header button:active {
+    transform: scale(0.96);
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main .hr {
+    height: 2.5px;
+}
+
+.ContentUser {
+    width: 80%;
+    padding-inline: 20px;
+    margin: 0 auto;
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+}
+
+.ContentUser .User {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.ContentUser .User .NumberOrder {
+    width: 5%;
+    text-align: center;
+}
+
+.ContentUser .User .NameUser {
+    width: 30%;
+    padding-left: 10px;
+}
+
+.ContentUser .User .EmailUser {
+    width: 35%;
+    padding-left: 10px;
+}
+
+.ContentUser .User button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ContentUser .User button:nth-of-type(1) {
+    background-color: #32CD32;
+    color: white;
+}
+
+.ContentUser .User button:nth-of-type(1):hover {
+    background-color: #28a745;
+}
+
+.ContentUser .User button:nth-of-type(1):active {
+    transform: scale(0.96);
+}
+
+.ContentUser .User button:nth-of-type(2) {
+    background-color: #B22222;
+    color: white;
+}
+
+.ContentUser .User button:nth-of-type(2):hover {
+    background-color: #a51c1c;
+}
+
+.ContentUser .User button:nth-of-type(2):active {
+    transform: scale(0.96);
+}
