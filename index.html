@@ -8,42 +8,26 @@
     <title>Agenda</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>Ordem</li>
-                <li>Nome</li>
-                <li>Email</li>
-            </ul>
-        </nav>
-        <div class="search-container">
-            <img src="styles/imagens/Search-Icon.svg" alt="Ícone de lupa" class="search-icon">
-            <input type="text" class="search-bar" placeholder="Pesquisar" id="searchInput">
-        </div>
-        <button>+ Adicionar</button>
-    </header>
-    <main>
-        <div class="hr"></div>
-        <section class="ContentUser">
-            <div class="User">
-                <div class="NumberOrder">1</div>
-                <div class="NameUser">Test User Number One</div>
-                <div class="EmailUser">TextUser@user.io</div>
-
-                <button>Editar</button>
-                <button>Exluir</button>
+        <header>
+            <nav>
+                <ul>
+                    <li>Ordem</li>
+                    <li>Nome</li>
+                    <li>Email</li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <img src="styles/imagens/Search-Icon.svg" alt="Ícone de lupa" class="search-icon">
+                <input type="text" class="search-bar" placeholder="Pesquisar" id="searchInput">
             </div>
-            <hr>
-            <div class="User">
-                <div class="NumberOrder">1</div>
-                <div class="NameUser">Test User Number One</div>
-                <div class="EmailUser">TextUser@user.io</div>
-
-                <button>Editar</button>
-                <button>Exluir</button>
-            </div>
-            </div>
-        </section>
-    </main>
+            <button id="addUserBtn">+ Adicionar</button>
+        </header>
+        <main>
+            <div class="hr"></div>
+            <section class="ContentUser">
+                <!-- Lista de usuários será gerada aqui pelo JavaScript -->
+            </section>
+        </main>
+    <script src="script.js"></script>
 </body>
 </html>
